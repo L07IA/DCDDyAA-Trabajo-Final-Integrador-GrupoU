@@ -73,7 +73,7 @@ El proyecto fue desarrollado en **Python 3.10** utilizando las siguientes librer
 ## 🚀 Ejecución
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/DCDDyAA-Trabajo-Final-Integrador-GrupoU.git
+   git clone https://github.com/L07IA/DCDDyAA-Trabajo-Final-Integrador-GrupoU.git
 
    pip install -r requirements.txt
 
