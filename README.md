@@ -70,7 +70,20 @@ El proyecto fue desarrollado en **Python 3.10** utilizando las siguientes librer
 - `lightgbm`  
 - `shap`  
 
-📦 Instalación rápida:
+## 🚀 Ejecución
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/tu_usuario/DCDDyAA-Trabajo-Final-Integrador-GrupoU.git
 
-```bash
-pip install -r requirements.txt
+   pip install -r requirements.txt
+
+   jupyter notebook DCDDyAA_TrabajoFinalIntegrador_Grupo_U.ipynb
+
+
+
+   👨‍💻 Autor
+
+Leandro Toledo
+leandro.toledo93@email.com
+
+📅 Octubre 2025
