@@ -70,14 +70,57 @@ El proyecto fue desarrollado en **Python 3.10** utilizando las siguientes librer
 - `lightgbm`  
 - `shap`  
 
-## 🚀 Ejecución
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/L07IA/DCDDyAA-Trabajo-Final-Integrador-GrupoU.git
+🚀 Ejecución en Google Colab
 
-   pip install -r requirements.txt
+A continuación se detallan los pasos para ejecutar este proyecto directamente desde Google Colab 👇
 
-   jupyter notebook DCDDyAA_TrabajoFinalIntegrador_Grupo_U.ipynb
+🔹 1. Clonar el repositorio
+!git clone https://github.com/L07IA/DCDDyAA-Trabajo-Final-Integrador-GrupoU.git
+%cd DCDDyAA-Trabajo-Final-Integrador-GrupoU
+
+🔹 2. Verificar archivos del proyecto
+import os
+print(os.listdir())
+
+🔹 3. Instalar dependencias
+!pip install -r requirements.txt
+
+🔹 4. (Opcional) Montar Google Drive
+
+Si deseás guardar resultados o el notebook ejecutado:
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+🔹 5. Ejecutar el notebook completo
+
+Esto correrá todas las celdas del notebook automáticamente y generará un archivo con los resultados:
+
+!jupyter nbconvert --to notebook --execute DCDDyAA_TrabajoFinalIntegrador_Grupo_U.ipynb \
+  --ExecutePreprocessor.timeout=1200 \
+  --output DCDDyAA_TrabajoFinalIntegrador_Grupo_U.executed.ipynb
+
+🔹 6. Abrir el proyecto en Colab
+
+También podés abrirlo manualmente desde:
+👉 https://colab.research.google.com/github/L07IA/DCDDyAA-Trabajo-Final-Integrador-GrupoU
+
+O directamente con este botón:
+
+
+🔹 7. Ejecutar todo
+
+Una vez abierto el cuaderno, seleccioná:
+➡️ Entorno de ejecución → Ejecutar todo
+
+🧾 Resultado final
+
+Se generará un nuevo notebook ejecutado:
+
+DCDDyAA_TrabajoFinalIntegrador_Grupo_U.executed.ipynb
+
+
+que contendrá todos los outputs, métricas y gráficos del proyecto.
 
 
 
