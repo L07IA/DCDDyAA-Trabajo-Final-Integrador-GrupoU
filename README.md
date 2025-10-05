@@ -92,6 +92,7 @@ print(os.listdir())
 Si deseás guardar resultados o el notebook ejecutado:
 
 from google.colab import drive
+
 drive.mount('/content/drive')
 
 ## 🔹 5. Ejecutar el notebook completo
@@ -107,6 +108,7 @@ Esto correrá todas las celdas del notebook automáticamente y generará un arch
 ## 🔹 6. Abrir el proyecto en Colab
 
 También podés abrirlo manualmente desde:
+
 👉 https://colab.research.google.com/github/L07IA/DCDDyAA-Trabajo-Final-Integrador-GrupoU
 
 O directamente con este botón:
