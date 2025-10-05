@@ -76,6 +76,7 @@ A continuación se detallan los pasos para ejecutar este proyecto directamente d
 
 ## 🔹 1. Clonar el repositorio
 !git clone https://github.com/L07IA/DCDDyAA-Trabajo-Final-Integrador-GrupoU.git
+
 %cd DCDDyAA-Trabajo-Final-Integrador-GrupoU
 
 ## 🔹 2. Verificar archivos del proyecto
