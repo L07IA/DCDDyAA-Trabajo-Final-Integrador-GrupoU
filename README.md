@@ -81,6 +81,7 @@ A continuación se detallan los pasos para ejecutar este proyecto directamente d
 
 ## 🔹 2. Verificar archivos del proyecto
 import os
+
 print(os.listdir())
 
 ## 🔹 3. Instalar dependencias
@@ -98,7 +99,9 @@ drive.mount('/content/drive')
 Esto correrá todas las celdas del notebook automáticamente y generará un archivo con los resultados:
 
 !jupyter nbconvert --to notebook --execute DCDDyAA_TrabajoFinalIntegrador_Grupo_U.ipynb \
+
   --ExecutePreprocessor.timeout=1200 \
+  
   --output DCDDyAA_TrabajoFinalIntegrador_Grupo_U.executed.ipynb
 
 ## 🔹 6. Abrir el proyecto en Colab
